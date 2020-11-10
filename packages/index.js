@@ -1,9 +1,13 @@
-import Button from './button/index'
 
+import Animation from './Animation/index'
+import Frame from './Frame/index'
+import Button from './Button/index'
 import jssPlugin from 'vue-jss-plugin';
 
 
 const components = [
+    Animation,
+    Frame,
     Button,
 ]
 const install = function(Vue) {
